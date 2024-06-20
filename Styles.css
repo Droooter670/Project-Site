@@ -1,0 +1,71 @@
+.font-family{
+    font-family: "Playwrite NZ", cursive;
+    font-optical-sizing: auto;
+    color: #ff8063;
+    font-weight: bold;
+}
+
+h1{
+    color: #ff8063; 
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #51a4c0, #12dac9, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    height: 600px;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .body{
+    background-image: url(./Assets/Images/spot-light-background-hd-wallpaper-3840x2160.jpg;)
+  }
+
+  .profile-pic{
+    height: 200px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container{
+    display: inline-flex;
+  }
+
+  .body{
+    background-color: rgba(211, 211, 211, 0.267);
+    
+  }
+
+  .container1{
+    display: grid;
+    grid-template-rows: 0.5fr 1fr;
+    grid-template-columns: 0.5fr 1fr;
+    row-gap: 25px;
+    column-gap: 25px;
+    align-content: center;
+    border: 0px;
+    justify-content: center;
+  }
+
+  .h2{
+    font-size: 2.5rem;
+    color: rgb(6, 125, 129);
+    font-family:serif;
+  }
+
+  .h3{
+    color: #3f948d;
+    font-size:large;
+  }
